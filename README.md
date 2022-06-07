@@ -74,7 +74,9 @@ RT = 1.0 Ω + 2.2 Ω + 5.6 Ω + 12 Ω + 22 Ω = 42.8 Ω
 ![image](https://user-images.githubusercontent.com/104863870/172262195-1dd1effe-7880-4af4-9a22-64b0afd7b7d4.png)
 
 (a) RT = 1.0 kΩ + 5.6 kΩ + 2.2 kΩ = 8.6 kΩ
+
 (b) RT = 4.7 Ω + 10 Ω + 12 Ω + 1.0 Ω = 27.7 Ω
+
 (c) RT = 1.0 MΩ + 560 kΩ + 5.6 MΩ + 680 kΩ + 10 MΩ = 1.0 MΩ + 0.56 MΩ + 5.6 MΩ + 0.68 MΩ + 10 MΩ = 17.84 MΩ
 
 14. Se conectan en serie seis resistores de 56 Ω, ocho de 100 Ω, y dos de 22 Ω. ¿Cuál es la resistencia total?
@@ -152,10 +154,15 @@ Para medir las caídas de voltaje se debe conectar en paralelo a las resistencia
 ![image](https://user-images.githubusercontent.com/104863870/172262742-4b7da4bc-40f6-4d7e-9954-4e7758d96fd2.png)
 
 1. Calcular el valor de R3.
+
 	R3 = V/I = 9 V/10 mA = 0.9 kΩ
+	
 2. Calcular el valor de R2.
+
 	R2 = P/I^2 = 22 mW/(100 mA)^2 = 2.2X10^(-3) Ω
+	
 3. Calcular el valor de R1.
+
 	R1 = V/I = 5.6 V/10 mA = 0.56 kΩ
 
 36. Con el resultado del problema 35, determine el voltaje a través de cada resistor mostrado en la figura 5-83 para cada posición del interruptor.
@@ -163,8 +170,11 @@ Para medir las caídas de voltaje se debe conectar en paralelo a las resistencia
 ![image](https://user-images.githubusercontent.com/104863870/172262778-3e7d413c-dabe-4c03-94b7-9ba9999ebcb7.png)
 
 Posición A: 4.0 V
+
 Posición B: 4.5 V
+
 Posición C: 5.4 V
+
 Posición D: 7.2 V
 
 ## SECCIÓN 5-7 Divisores de voltaje
@@ -202,23 +212,34 @@ PT = 50 mW + 50 mW + 50 mW + 50 mW + 50 mW = 250 mW
 48.  Los siguientes resistores de 1⁄4 W están dispuestos en serie: 1.2 kΩ, 2.2 kΩ, 3.9 kΩ, y 5.6 kΩ. ¿Cuál es el voltaje máximo que puede ser aplicado a través de estos resistores sin exceder el valor nominal de potencia? ¿Cuál resistor se quemará primero al aplicar un voltaje excesivo?
 
 V = √(P/R) = √(1⁄4 W/ 1.2 kΩ) = 17.32 V
+
 V = √(P/R) = √(1⁄4 W/ 2.2 kΩ) = 23.45 V
+
 V = √(P/R) = √(1⁄4 W/ 3.9 kΩ) = 31.22 V
+
 V = √(P/R) = √(1⁄4 W/ 5.6 kΩ) = 37.42 V
 
 50. . Cierto circuito en serie se compone de un resistor de 1⁄8 W, un resistor de 1⁄4 W, y un resistor de 1⁄2 W. La resistencia total es de 2400 Ω. Si cada uno de los resistores opera en el circuito a su máxima disipación de potencia, determine lo siguiente:
 
 (a) I
     PT = 1⁄8 W + 1⁄4 W + 1⁄2 W = 7/8 W
+    
     I = √(P/R) = √((7/8 W)/(2400 Ω))
+    
     I = 7.71x10^(-3) A
 (b)  VT 
+
     VT = PT/IT
+    
     VT = 7/8 W/7.71x10^(-3) A
+    
     VT = 113.48 V
 (c) El valor de cada resistor
+
     R1: R = P/I^2 = 1⁄8 W/5.94x10^(-5) = 2104.37 Ω
+    
     R2: R = P/I^2 = 1⁄4 W/5.94x10^(-5) = 4208.75 Ω
+    
     R3: R = P/I^2 = 1⁄2 W/5.94x10^(-5) = 8417.50 Ω
     
 ## SECCIÓN 5-9 Mediciones de voltaje
@@ -267,6 +288,7 @@ La punta de la 1 a la 2, las resistencias en paralelo son R1, R4,R7 y R8.
 ![image](https://user-images.githubusercontent.com/104863870/172267496-fecbcf2f-c07a-4f79-bf1e-5ab4319c459b.png)
 
 RT = 1/(1/1.0 kΩ + 1/2.7 KΩ)
+
 RT = 0.73 kΩ
 
 8. ¿Cuál es la corriente total suministrada por la fuente de voltaje que muestra la figura 6-68 para cada posición del interruptor?
@@ -329,14 +351,23 @@ b) ![image](https://user-images.githubusercontent.com/104863870/172268090-e2680e
 26. Encuentre los valores de las cantidades marcadas no especificadas en cada circuito de la figura 6-74.
 
 (a) Corriente para R2 = 50 mA
+
     R1 = V/I = 10 V/100 mA = 0.1 kΩ
+    
     R2 = V/I = 10 V/50 mA = 0.2 kΩ
+    
 (b) Calcular la corriente de R2
+
     I = V/R = 100 V/680 Ω = 0.15 A
+    
     Calcular la corriente que pasa por R3
+    
     I = V/R = 100 V/1.0 kΩ = 0.1 A
+    
     I = 0.15 A + 0.1 A = 0.25 A
+    
     0.25 A - 0.5 A = 0.25 A, corriente en I1
+    
     R1 = V/I = 100 v/0.25 A = 400 Ω
     
 28. Determine la corriente total suministrada por la fuente y la corriente a través de cada resistor para cada una de las posiciones de interruptor mostradas en la figura 6-76.
@@ -438,12 +469,19 @@ b) ![image](https://user-images.githubusercontent.com/104863870/172268559-aaf0b9
 ![image](https://user-images.githubusercontent.com/104863870/172268873-9f002810-18f3-479e-8cf1-f524c12dc658.png)
 
 (a) 1 y 2 
+
     No tiene conexión
+    
 (b) 2 y 3 
+
     Las resistencias que forman parte de las puntas son: R5, R6, R7, R8, R9, R10
+    
 (c) 3 y 4 
+
     No tiene conexión
+    
 (d) 1 y 4
+
     R2
     
 ## 4. VIDEO
