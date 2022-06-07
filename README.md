@@ -485,6 +485,9 @@ b) ![image](https://user-images.githubusercontent.com/104863870/172268559-aaf0b9
     R2
     
 ## 4. VIDEO
+
+https://youtu.be/H4gaVZer3ug
+
 ## 5. CONCLUSIONES
 
   Como pudivos ver cuando conectamos un circuito en paralelo la corriente de la fuente se divide en cada uno de los receptores de un circuito y se suman de tal forma que, al terminar el recorrido, la corriente original tetoma al fuente. Es decir que cada elemento del circuito funciona sin depender de los demás. Esto debido a que la corriente tienes múltiples caminos y si alguno de estos falla, la corriente no pasa por el elemento dañad, sinó que busca otro camino.
